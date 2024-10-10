@@ -1,0 +1,16 @@
+@font-face {
+    font-family: SF_Pro;
+    src: url("../Assets/SF-Pro-Display-Semibold.otf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: SF_Pro;
+}
+
+body{
+    margin: 2rem;
+}
+
