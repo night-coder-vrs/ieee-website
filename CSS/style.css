@@ -11,6 +11,45 @@
 }
 
 body{
-    margin: 2rem;
+    margin: 1rem 2rem;
 }
 
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 170.75px;
+    height: 50px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-list{
+    text-decoration: none;
+    margin: 1rem;
+    font-size: 1.4rem;
+    color: black;
+    border-bottom: 2px solid white;
+}
+
+.sub-list:hover{
+    border-bottom: 2px solid black;
+}
+
+@media screen and (max-width: 1200px) {
+    .logo{
+        width: 136.6px;
+        height: 40px;
+    }
+
+    .sub-list{
+        font-size: 1.3rem;
+    }
+}
