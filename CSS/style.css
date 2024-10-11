@@ -44,6 +44,11 @@ body{
     border-bottom: 2px solid black;
 }
 
+.intro-pic{
+    width: auto;
+    height: 500px;
+}
+
 @media screen and (max-width: 1200px) {
     .logo{
         width: 136.6px;
